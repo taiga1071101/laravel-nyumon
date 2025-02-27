@@ -6,6 +6,7 @@
       <tr style="border: 2px black solid;">
         <th style="border: 2px black solid;">date</th>
         <th style="border: 2px black solid;">title</th>
+        <th style="border: 2px black solid;">body</th>
       </tr>
     </thead>
     <tbody>
@@ -13,6 +14,7 @@
       <tr style="border: 2px black solid;">
         <td style="border: 2px black solid;">{{ $diary->date }}</td>
         <td style="border: 2px black solid;">{{ $diary->title }}</td>
+        <td style="border: 2px black solid;">{{ $diary->body }}</td>
       </tr>
       @endforeach
     </tbody>

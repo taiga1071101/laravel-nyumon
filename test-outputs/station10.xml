@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="CLI Arguments" tests="2" assertions="4" errors="0" failures="0" skipped="0" time="7.452090">
+    <testsuite name="Tests\Feature\LaravelNyumon\Station10\DiaryControllerTest" file="/var/www/tests/Feature/LaravelNyumon/Station10/DiaryControllerTest.php" tests="2" assertions="4" errors="0" failures="0" skipped="0" time="7.452090">
+      <testcase name="test_日記作成フォームが表示される" file="/var/www/tests/Feature/LaravelNyumon/Station10/DiaryControllerTest.php" line="18" class="Tests\Feature\LaravelNyumon\Station10\DiaryControllerTest" classname="Tests.Feature.LaravelNyumon.Station10.DiaryControllerTest" assertions="2" time="6.905371"/>
+      <testcase name="test_新しい日記を保存できる" file="/var/www/tests/Feature/LaravelNyumon/Station10/DiaryControllerTest.php" line="28" class="Tests\Feature\LaravelNyumon\Station10\DiaryControllerTest" classname="Tests.Feature.LaravelNyumon.Station10.DiaryControllerTest" assertions="2" time="0.546719"/>
+    </testsuite>
+  </testsuite>
+</testsuites>
