@@ -33,4 +33,9 @@ class DiaryController extends Controller
 
     return back()->with('message', '保存しました');
   }
+
+  public function show($id) {
+    $diary = Diary::find($id);
+    return view('diary.show', compact('diary'));
+  }
 }
