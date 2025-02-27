@@ -38,4 +38,21 @@ class DiaryController extends Controller
     $diary = Diary::find($id);
     return view('diary.show', compact('diary'));
   }
+
+  public function edit($id) {
+    $diary = Diary::find($id);
+    return view('diary.edit', compact('diary'));
+  }
+
+  public function update(Request $request, $id) {
+    $diary = Diary::find($id);
+
+    $validated = $request->validate([
+      'title' => 'required|max:20',
+      'body' => 'required|max:400',
+    ]);
+    
+    $diary->update($validated);
+    return back()->with('message', '更新しました');
+  }
 }
