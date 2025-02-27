@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="CLI Arguments" tests="3" assertions="8" errors="0" failures="0" skipped="0" time="6.352077">
+    <testsuite name="Tests\Feature\LaravelNyumon\Station8\PracticeTest" file="/var/www/tests/Feature/LaravelNyumon/Station8/PracticeTest.php" tests="3" assertions="8" errors="0" failures="0" skipped="0" time="6.352077">
+      <testcase name="test_diariesテーブルが存在する" file="/var/www/tests/Feature/LaravelNyumon/Station8/PracticeTest.php" line="17" class="Tests\Feature\LaravelNyumon\Station8\PracticeTest" classname="Tests.Feature.LaravelNyumon.Station8.PracticeTest" assertions="1" time="5.998392"/>
+      <testcase name="test_diariesテーブルにカラムが存在する" file="/var/www/tests/Feature/LaravelNyumon/Station8/PracticeTest.php" line="24" class="Tests\Feature\LaravelNyumon\Station8\PracticeTest" classname="Tests.Feature.LaravelNyumon.Station8.PracticeTest" assertions="1" time="0.167915"/>
+      <testcase name="test_diariesテーブルのカラムの型が正しい" file="/var/www/tests/Feature/LaravelNyumon/Station8/PracticeTest.php" line="40" class="Tests\Feature\LaravelNyumon\Station8\PracticeTest" classname="Tests.Feature.LaravelNyumon.Station8.PracticeTest" assertions="6" time="0.185770"/>
+    </testsuite>
+  </testsuite>
+</testsuites>
