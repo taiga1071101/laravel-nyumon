@@ -51,8 +51,15 @@ class DiaryController extends Controller
       'title' => 'required|max:20',
       'body' => 'required|max:400',
     ]);
-    
+
     $diary->update($validated);
     return back()->with('message', '更新しました');
+  }
+
+  public function destroy(Request $request) {
+    $id = $request->route('id');
+    $diary = Diary::find($id);
+    $diary->delete();
+    return redirect()->route('diary.index');
   }
 }

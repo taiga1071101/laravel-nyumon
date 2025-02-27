@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="CLI Arguments" tests="2" assertions="6" errors="0" failures="0" skipped="0" time="7.616156">
+    <testsuite name="Tests\Feature\LaravelNyumon\Station13\DiaryControllerTest" file="/var/www/tests/Feature/LaravelNyumon/Station13/DiaryControllerTest.php" tests="2" assertions="6" errors="0" failures="0" skipped="0" time="7.616156">
+      <testcase name="test_個別記事ページに削除ボタンが表示される" file="/var/www/tests/Feature/LaravelNyumon/Station13/DiaryControllerTest.php" line="18" class="Tests\Feature\LaravelNyumon\Station13\DiaryControllerTest" classname="Tests.Feature.LaravelNyumon.Station13.DiaryControllerTest" assertions="2" time="7.396720"/>
+      <testcase name="test_指定した記事が削除される" file="/var/www/tests/Feature/LaravelNyumon/Station13/DiaryControllerTest.php" line="35" class="Tests\Feature\LaravelNyumon\Station13\DiaryControllerTest" classname="Tests.Feature.LaravelNyumon.Station13.DiaryControllerTest" assertions="4" time="0.219436"/>
+    </testsuite>
+  </testsuite>
+</testsuites>

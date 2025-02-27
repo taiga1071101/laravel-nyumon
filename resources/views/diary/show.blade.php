@@ -10,3 +10,9 @@
   <div>{{ $diary->body }}</div>
   <div>{{ $diary->date }}</div>
 </div>
+
+<form method="post" action="{{ route('diary.destroy', $diary) }}">
+  @csrf
+  @method('delete')
+  <button>削除</button>
+</form>

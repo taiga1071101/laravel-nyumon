@@ -18,3 +18,5 @@ Route::get('/diary/{id}', [DiaryController::class, 'show'])->name('diary.show');
 Route::get('/diary/{id}/edit', [DiaryController::class, 'edit'])->name('diary.edit');
 
 Route::patch('/diary/{id}', [DiaryController::class, 'update'])->name('diary.update');
+
+Route::delete('/diary/{id}', [DiaryController::class, 'destroy'])->name('diary.destroy');
