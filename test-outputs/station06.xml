@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="CLI Arguments" tests="3" assertions="4" errors="0" failures="0" skipped="0" time="4.353739">
+    <testsuite name="Tests\Feature\LaravelNyumon\Station6\PracticeTest" file="/var/www/tests/Feature/LaravelNyumon/Station6/PracticeTest.php" tests="3" assertions="4" errors="0" failures="0" skipped="0" time="4.353739">
+      <testcase name="test_Diaryコントローラーが存在する" file="/var/www/tests/Feature/LaravelNyumon/Station6/PracticeTest.php" line="13" class="Tests\Feature\LaravelNyumon\Station6\PracticeTest" classname="Tests.Feature.LaravelNyumon.Station6.PracticeTest" assertions="1" time="3.391919"/>
+      <testcase name="test_indexメソッドが存在する" file="/var/www/tests/Feature/LaravelNyumon/Station6/PracticeTest.php" line="20" class="Tests\Feature\LaravelNyumon\Station6\PracticeTest" classname="Tests.Feature.LaravelNyumon.Station6.PracticeTest" assertions="1" time="0.144538"/>
+      <testcase name="test_Routerを通じてHelloControllerと表示する" file="/var/www/tests/Feature/LaravelNyumon/Station6/PracticeTest.php" line="29" class="Tests\Feature\LaravelNyumon\Station6\PracticeTest" classname="Tests.Feature.LaravelNyumon.Station6.PracticeTest" assertions="2" time="0.817282"/>
+    </testsuite>
+  </testsuite>
+</testsuites>
