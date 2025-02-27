@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="CLI Arguments" tests="3" assertions="4" errors="0" failures="0" skipped="0" time="4.254521">
+    <testsuite name="Tests\Feature\LaravelNyumon\Station7\PracticeTest" file="/var/www/tests/Feature/LaravelNyumon/Station7/PracticeTest.php" tests="3" assertions="4" errors="0" failures="0" skipped="0" time="4.254521">
+      <testcase name="test_indexビューが存在する" file="/var/www/tests/Feature/LaravelNyumon/Station7/PracticeTest.php" line="13" class="Tests\Feature\LaravelNyumon\Station7\PracticeTest" classname="Tests.Feature.LaravelNyumon.Station7.PracticeTest" assertions="1" time="3.178832"/>
+      <testcase name="test_indexビューに変数が定義されている" file="/var/www/tests/Feature/LaravelNyumon/Station7/PracticeTest.php" line="20" class="Tests\Feature\LaravelNyumon\Station7\PracticeTest" classname="Tests.Feature.LaravelNyumon.Station7.PracticeTest" assertions="1" time="0.473394"/>
+      <testcase name="test_Routerを通じてHelloLaravelと表示する" file="/var/www/tests/Feature/LaravelNyumon/Station7/PracticeTest.php" line="28" class="Tests\Feature\LaravelNyumon\Station7\PracticeTest" classname="Tests.Feature.LaravelNyumon.Station7.PracticeTest" assertions="2" time="0.602296"/>
+    </testsuite>
+  </testsuite>
+</testsuites>
